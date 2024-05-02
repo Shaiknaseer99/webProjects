@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(215, 224, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width:30%;
+    height:40vh;
+    background-color: white;
+    border-radius:  30px;
+}
+#heading
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    padding:5px;
+}
+label
+{
+    display: block;
+    margin-top: 4px;
+    text-align: center;
+}
+#celsius
+{  
+    box-shadow: 0  0 10px rgba(0, 0, 0, 0.4);
+    margin-top: 2px;
+    padding:3px;
+    margin-left: 60px;
+    border:none;
+    outline: none;
+}
+#kelvin
+{
+    box-shadow: 0  0 10px rgba(0, 0, 0, 0.4);
+    margin-top: 2px;
+    padding:3px;
+    margin-left: 60px;
+    border:none;
+    outline: none;
+}
+#fahreinheit
+{   box-shadow: 0  0 10px rgba(0, 0, 0, 0.4);
+     margin-top: 2px;
+    padding:3px;
+    margin-left: 60px;
+    border:none;
+    outline: none;
+}
